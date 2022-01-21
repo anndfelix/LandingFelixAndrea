@@ -1,0 +1,28 @@
+.header-img {
+    height: 200px;
+    width: 100%;
+}
+.header-navbar {
+    position: absolute;
+    top: 150px;
+    left: 10px;
+}
+.header-navbar__list {
+    list-style: none;
+}
+.header-navbar__list__item {
+    display: inline-block;
+}
+.header-navbar__list__item__link {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header-navbar__list__item__link:hover {
+    color: lightgreen;
+    font-size: 25px;
+}
+#after-element::after{
+    content: " | "
+}
