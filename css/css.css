@@ -30,7 +30,7 @@ body {
     text-transform: uppercase;
     font:800 20px/1.7 'Roboto Condensed';
 }
-  
+
 .title {
         margin-bottom: 40px; 
         text-transform: uppercase;
@@ -68,5 +68,11 @@ body {
 .lista-quienessomosimg p{ 
     align-items: left; 
     justify-content: left;
+}
+
+.avatar {
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
 }
 
