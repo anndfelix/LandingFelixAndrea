@@ -1,28 +1,71 @@
-.header-img {
-    height: 200px;
-    width: 100%;
+body {
+    text-align: center;
+    font:300 20px/1.7 'Roboto Condensed';} 
+    
+.header {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
 }
-.header-navbar {
-    position: absolute;
-    top: 150px;
-    left: 10px;
+
+.header{
+    height: 450px;
+    background: url(../images/header.png); 
+    background-size: cover;
 }
-.header-navbar__list {
-    list-style: none;
+
+.navbar { 
+    height: 63px; 
+    background: #fff; 
+    border-bottom: 1px dashed #4990ac;
+    background-size: cover;
 }
-.header-navbar__list__item {
-    display: inline-block;
+
+.navbar a { 
+    padding: 0 20px; 
+    color: rgb(0, 0, 0); 
+    text-transform: uppercase;
+    font:800 20px/1.7 'Roboto Condensed';
 }
-.header-navbar__list__item__link {
-    color: white;
-    padding: 5px;
-    text-decoration: none;
-    font-size: 20px;
+  
+.title {
+        margin-bottom: 40px; 
+        text-transform: uppercase;
 }
-.header-navbar__list__item__link:hover {
-    color: lightgreen;
-    font-size: 25px;
+
+.content { 
+    padding: 100px 0;
 }
-#after-element::after{
-    content: " | "
+
+.quienessomos {
+    background: #6fadaf; 
+    color: #fff;
 }
+
+.contacto {
+    background: #458c83;
+    color: #fff;
+}
+
+.lista-quienessomosimg {
+    display: flex; 
+    align-items: center; 
+    justify-content: 
+    center;}
+
+.lista-quienessomosimg img {
+    position: relative; 
+    z-index: 1; 
+    width: 300;
+}
+.lista-quienessomosimg li { 
+    padding: 0 100px; 
+}
+
+.lista-quienessomosimg p{ 
+    align-items: left; 
+    justify-content: left;
+}
+

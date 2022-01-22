@@ -1,32 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Landing Page</title>
-</head>
-<body>
-    <!-- HEADER -->
-    <header class="header">
-        <div class="header-container">
-            <img src="./assets/images/header.png" alt="logo" class="header-img" />
-            <nav class="header-navbar">
-                <ul class="header-navbar__list">
-                    <li class="header-navbar__list__item"><a href="" class="header-navbar__list__item__link" id="after-element">Inicio</a></li>
-                    <li class="header-navbar__list__item"><a href="" class="header-navbar__list__item__link" id="after-element">Quienes somos</a></li>
-                    <li class="header-navbar__list__item"><a href="" class="header-navbar__list__item__link">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-        
-    </header>
-    <main>
+<!DOCUMENT html>
 
-    </main>
-    <footer>
+    <html>
 
-    </footer>
-</body>
-</html>
+    <head>
+        <meta charset="utf-8">
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="css/css.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <a name ="inicio"></a>
+        <header>
+            <h1>
+                <img src="images/header.png" alt="header" width="1850">
+            </h1>
+        </header>
+
+        <nav class="navbar">
+            <a href="#inicio">Inicio</a>
+            <a href="#quienessomos">Quienes somos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <a name ="quienessomos"></a>
+        <section class="content quienessomos">
+            <h2 class="title">Quienes somos</h2>
+           
+            <ul class="lista-quienessomosimg">
+                <li>
+                    <figure>
+                        <img src="images/img1.png" alt="img1" >
+                    </figure>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Asperiores fuga laborum excepturi commodi? Beatae qui culpa amet cum quae. Obcaecati magnam a
+                        sit,
+                        nam fugiat consectetur delectus aperiam ipsa minus!
+                    </p>
+                </li>
+
+                <li>
+                    <figure>
+                        <img src="images/img1.png" alt="img1">
+                    </figure>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Asperiores fuga laborum excepturi commodi? Beatae qui culpa amet cum quae. Obcaecati magnam a
+                        sit,
+                        nam fugiat consectetur delectus aperiam ipsa minus!
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <a name ="contacto"></a>
+        <section class="content contacto" name="contacto">
+            <h2 class="title">Contacto</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores fuga laborum excepturi commodi? Beatae qui culpa amet cum quae. Obcaecati magnam a sit,
+                nam fugiat consectetur delectus aperiam ipsa minus!</p>
+        </section>
+
+    </body>
+
+    </html>
