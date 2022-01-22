@@ -80,13 +80,22 @@ body {
   padding: 0 100px;
 }
 
-.lista-quienessomosimg p {
-  align-items: left;
-  justify-content: left;
-}
-
 .avatar {
   width: 200px;
   height: 300px;
   border-radius: 50%;
+}
+
+.lista-contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lista-contacto li {
+  padding: 0 100px;
+}
+
+.lista-contacto a {
+  color:black;
 }
