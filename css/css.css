@@ -31,6 +31,11 @@ body {
     font:800 20px/1.7 'Roboto Condensed';
 }
 
+.navbar-element:hover {
+    color: green;
+    font-size: 120%;
+}
+
 .title {
         margin-bottom: 40px; 
         text-transform: uppercase;
