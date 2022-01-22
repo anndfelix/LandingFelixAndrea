@@ -12,7 +12,7 @@ body {
 
 .header{
     height: 450px;
-    background: url(../images/header.png); 
+    background: url(../assets/images/header.png); 
     background-size: cover;
 }
 
