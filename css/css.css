@@ -1,83 +1,92 @@
+html {
+  scroll-behavior: smooth;
+}
 
 body {
-    text-align: center;
-    font:300 20px/1.7 'Roboto Condensed';} 
-    
-.header {
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
+  text-align: center;
+  font: 300 20px/1.7 "Roboto Condensed";
 }
 
-.header{
-    height: 450px;
-    background: url(../images/header.png); 
-    background-size: cover;
+.navbar-header {
+  height: 63px;
+  background: #fff;
+  border-bottom: 1px dashed #4990ac;
+  background-size: cover;
 }
 
-.navbar { 
-    height: 63px; 
-    background: #fff; 
-    border-bottom: 1px dashed #4990ac;
-    background-size: cover;
-}
-
-.navbar a { 
-    padding: 0 20px; 
-    color: rgb(0, 0, 0); 
-    text-transform: uppercase;
-    font:800 20px/1.7 'Roboto Condensed';
+.navbar-header a {
+  padding: 0 20px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font: 800 20px/1.7 "Roboto Condensed";
 }
 
 .navbar-element:hover {
-    color: green;
-    font-size: 120%;
+  color: green;
+  font-size: 120%;
+}
+
+.navbar-body {
+  color: white;
+  display: flex;
+  justify-content: end;
+}
+
+.navbar-element {
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0 20px;
 }
 
 .title {
-        margin-bottom: 40px; 
-        text-transform: uppercase;
+  margin-bottom: 40px;
+  text-transform: uppercase;
 }
 
-.content { 
-    padding: 100px 0;
+.content {
+  padding: 100px 0;
 }
 
-.quienessomos {
-    background: #6fadaf; 
-    color: #fff;
+.content-quienessomos {
+  background: #6fadaf;
+  color: #fff;
 }
 
-.contacto {
-    background: #458c83;
-    color: #fff;
+.main-link {
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: in;
+}
+
+.content-contacto {
+  background: #458c83;
+  color: #fff;
 }
 
 .lista-quienessomosimg {
-    display: flex; 
-    align-items: center; 
-    justify-content: 
-    center;}
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .lista-quienessomosimg img {
-    position: relative; 
-    z-index: 1; 
-    width: 300;
+  position: relative;
+  z-index: 1;
+  width: 300;
 }
-.lista-quienessomosimg li { 
-    padding: 0 100px; 
+.lista-quienessomosimg li {
+  padding: 0 100px;
 }
 
-.lista-quienessomosimg p{ 
-    align-items: left; 
-    justify-content: left;
+.lista-quienessomosimg p {
+  align-items: left;
+  justify-content: left;
 }
 
 .avatar {
-    width: 200px;
-    height: 300px;
-    border-radius: 50%;
+  width: 200px;
+  height: 300px;
+  border-radius: 50%;
 }
-
